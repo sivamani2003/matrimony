@@ -1,13 +1,13 @@
 import React from "react";
 import "./Hero.css";
-
+import img1 from '../../../assets/images/Metrimonititle.png'
 
 function Hero() {
   return (
     <div className="max-w-screen-xl mx-auto flex-col text-center justify-center items-center mb-2 md:mb-10">
       <div className="w-[300px] mt-10 flex justify-center md:mt-10 my-30 md:w-[700px]">
 
-        <img className="ml-20 md:ml-0" src="./src/assets/images/Metrimonititle.png" />
+        <img className="ml-20 md:ml-0" src={img1} />
       </div>
 
       <div className="mt-10 flex justify-start md:mt-10">

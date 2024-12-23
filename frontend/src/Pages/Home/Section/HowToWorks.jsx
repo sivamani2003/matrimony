@@ -1,3 +1,7 @@
+import img1 from '../../../assets/images/hiw-create-biodata.svg'
+import img2 from '../../../assets/images/hiw-search.svg'
+import img3 from '../../../assets/images/hiw-contact.svg'
+import img4 from '../../../assets/images/hiw-success.svg'
 function HowToWorks() {
   return (
     <div className="p-3 max-w-screen-xl mx-auto flex-col text-center justify-center items-center mb-20">
@@ -17,7 +21,7 @@ function HowToWorks() {
         <div className="flex-col justify-center items-center bg-white p-10 h-[350px] md:w-[295px] w-[350px] border rounded-xl hover:shadow-xl drop-shadow-md mb-4 mr-4 hover:h-[360px] hover:w-[305px] transition-all duration-400 hover:shadow-pink-600">
           <div className="flex justify-center items-center mb-5">
             <img
-              src="/src/assets/images/hiw-create-biodata.svg"
+              src={img1}
               alt=""
               className=" w-16"
             />
@@ -35,7 +39,7 @@ function HowToWorks() {
         <div className="flex-col justify-center items-center bg-white p-10 h-[350px] md:w-[295px] w-[350px] border rounded-xl hover:shadow-xl drop-shadow-md mb-4 mr-4 hover:h-[360px] hover:w-[305px] transition-all duration-400 hover:shadow-pink-600">
           <div className="flex justify-center items-center mb-5">
             <img
-              src="/src/assets/images/hiw-search.svg"
+              src={img2}
               alt=""
               className=" w-16"
             />
@@ -52,7 +56,7 @@ function HowToWorks() {
         <div className="flex-col justify-center items-center bg-white p-10 h-[350px] md:w-[295px] w-[350px] border rounded-xl hover:shadow-xl drop-shadow-md mb-4 mr-4 hover:h-[360px] hover:w-[305px] transition-all duration-400 hover:shadow-pink-600">
           <div className="flex justify-center items-center mb-5">
             <img
-              src="/src/assets/images/hiw-contact.svg"
+              src={img3}
               alt=""
               className=" w-16"
             />
@@ -69,7 +73,7 @@ function HowToWorks() {
         <div className="flex-col justify-center items-center bg-white p-10 h-[350px] md:w-[295px] w-[350px] border rounded-xl hover:shadow-xl drop-shadow-md mb-4 mr-4 hover:h-[360px] hover:w-[305px] transition-all duration-400 hover:shadow-pink-600">
           <div className="flex justify-center items-center mb-5">
             <img
-              src="/src/assets/images/hiw-success.svg"
+              src={img4}
               alt=""
               className=" w-16"
             />
