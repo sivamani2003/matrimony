@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: 'SolaimanLipiNormal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('./assets/font/solaimanlipi.woff'), url('./assets/font/solaimanlipi.woff') format('woff');
+    }
+
+@font-face {
+        font-family: 'BASISGROTESQUEPRO-REGULAR';
+        font-style: normal;
+        font-weight: normal;
+        src: local('./assets/font/BASISGROTESQUEPRO-REGULAR.woff'), url('./assets/font/BASISGROTESQUEPRO-REGULAR.woff') format('woff');
+}
+@font-face {
+        font-family: 'HindSiliguri-Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('./assets/font/HindSiliguri-Regular.woff'), url('./assets/font/HindSiliguri-Regular.woff') format('woff');
+}
+/* @font-face {
+    font-family: 'SolaimanLipiNormal', 'BASISGROTESQUEPRO-REGULAR';
+    font-style: normal;
+    font-weight: normal;
+    src: local('src/assets/font/solaimanlipi.woff'), url('src/assets/font/solaimanlipi.woff') format('woff');
+    src: local('src/assets/font/BASISGROTESQUEPRO-REGULAR.woff'), url('src/assets/font/BASISGROTESQUEPRO-REGULAR.woff') format('woff');
+    } */
+
+
+    html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', 'HindSiliguri-Regular' , 'SolaimanLipiNormal' !important;
+      
+        /* 'Hind Siliguri' */
+      
+        scroll-behavior:smooth;
+    
+    /* background: linear-gradient(
+        0deg,
+        rgb(255, 255, 255) 0%,
+        rgb(232, 132, 209) 77.08%,
+       rgb(248, 167, 229) 52.6%,
+        
+        rgb(255, 255, 255) 100%
+    
+    
+      ) */
+
+      
+      }
+
+
+
+      
+      
+      
