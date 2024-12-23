@@ -2,7 +2,8 @@ import { Link, useNavigate } from "react-router-dom";
 import Header from "../../Components/Layout/Header";
 import Footer from "../../Components/Layout/Footer";
 import { useState } from "react";
-
+import img1 from '../../../src/assets/images/Wedding.png'
+import img2 from '../../assets/images/ring.jpg'
 function Registration() {
   const [selectedGender, setSelectedGender] = useState("");
   const [formData, setFormData] = useState({
@@ -69,11 +70,11 @@ function Registration() {
               Indian Metrimony
             </h2>
             <h3 className="text-black font-semibold mt-4">
-              Bangladesh most trusted Matrimony Web App with best Virtual Meetings, Success Stories, Easy Registration, User Friendly Interface
+              India most trusted Matrimony Web App with best Virtual Meetings, Success Stories, Easy Registration, User Friendly Interface
             </h3>
             <img
               className="w-72 mt-10 mx-auto"
-              src="/src/assets/images/Wedding.png"
+              src={img1}
               alt="error"
             />
           </div>

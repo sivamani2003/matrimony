@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-
+import img1 from '../../assets/images/Logo.png'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -62,7 +62,7 @@ const Header = () => {
         <div className="flex items-center">
           <Link to="/">
             <img
-              src="/src/assets/images/Logo.png" // Replace with your logo path
+              src={img1} // Replace with your logo path
               alt="Logo"
               className="h-[5rem] w-[12rem] ml-3 mt-2"
             />

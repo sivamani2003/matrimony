@@ -2,7 +2,8 @@ import { Link, useNavigate } from "react-router-dom";
 import Footer from "../../Components/Layout/Footer";
 import Header from "../../Components/Layout/Header";
 import { useState } from "react";
-
+import img1 from '../../../src/assets/images/Wedding.png'
+import img2 from '../../assets/images/ring.jpg'
 function Login() {
   const [formData, setFormData] = useState({
     email: "",
@@ -27,14 +28,14 @@ function Login() {
           <div className="hidden md:block w-1/2 bg-white flex justify-center">
             <div className="md:w-[405px] text-center">
               <h2 className="font-bold text-pink-500 text-4xl">
-                Indan Matrimony
+                Indian Matrimony
               </h2>
               <h3 className="text-black font-semibold mt-4">
-                Bangladesh's most trusted Matrimony Web App with best Virtual Meetings, Success Stories, Easy Registration, User Friendly Interface
+                Indias most trusted Matrimony Web App with best Virtual Meetings, Success Stories, Easy Registration, User Friendly Interface
               </h3>
               <img
                 className="w-72 m-10 mx-auto"
-                src="/src/assets/images/Wedding.png"
+                src={img1}
                 alt="error"
               />
             </div>
@@ -50,7 +51,7 @@ function Login() {
               >
                 <img
                   className="w-24 h-24 mx-auto mb-4"
-                  src="/src/assets/images/ring.jpg"
+                  src={img2}
                   alt=""
                 />
                 <p className="text-center font-bold text-xl mb-2">
