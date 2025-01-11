@@ -78,9 +78,9 @@ function Footer() {
         </div>
 
         <div className="w-full bg-[##602a49] p-4 text-center text-white dark:bg-neutral-700 dark:text-neutral-200">
-          © 2023 Copyright :{" "}
+          © 2024 Copyright :{" "}
           <a className="text-white dark:textwhite" href="/">
-            Team Indian Matrimony | ECSE 4B
+            Team Indian Matrimony | SRMAP
           </a>
         </div>
       </footer>
